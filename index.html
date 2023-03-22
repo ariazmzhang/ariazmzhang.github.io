@@ -23,9 +23,7 @@
         <li><a href="https://www.xiaoyuzhoufm.com/podcast/625629c4020537ed9fbedafb">Podcast</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="./about.html">About Me</a></li>
-        <i class="fas fa-times"></i>
       </ul>
-      <i class="fas fa-bars"></i>
     </nav>
     <div class="contact-all">
       <p>🪜 Find me on
@@ -46,7 +44,8 @@
 
   <!--  --------------------------Podcast------------------------- -->
   <div id="podcast">
-    <h1>MY PODCAST 🎧</h1>
+    <h1 class="subtitle">MY PODCAST 🎧</h1>
+    <div class="podcast">
     <div class="container">
       <div class="description">
         <img src="../images/logo.jpg" class="logo">
@@ -59,56 +58,82 @@
           <li><a href="https://podcasts.apple.com/us/podcast/010-%E6%88%91%E6%B2%A1%E6%9C%89%E5%8A%9E%E6%B3%95%E5%81%9C%E6%AD%A2%E6%81%A8%E4%BD%A0-%E7%88%B8%E7%88%B8/id1630138994?i=1000599455210">010 我没有办法停止恨你，爸爸</a></li>
           <li><a href="https://podcasts.apple.com/us/podcast/009-%E5%A4%A9%E4%B8%8B%E5%A5%B3%E4%BA%BA%E8%8B%A6%E6%83%85%E6%84%9F%E5%8A%B3%E5%8A%A8%E4%B9%85%E7%9F%A3/id1630138994?i=1000594459353">009 天下女人苦情感劳动久矣</a></li>
         </ul>
-        <div class="podcastlinks">listen more on 
-          <a href="https://podcasts.apple.com/us/podcast/%E5%8D%95%E4%BA%BA%E6%88%BFaloneroom/id1630138994?ign-itscg=30200S&ign-itsct=podcast_box"><i class="fa-solid fa-podcast"></i></a>
-          <a href="https://open.spotify.com/show/7oYpGRkq3rNp9BvOzYzwn9?si=fe6cff958f4e491d"><i class="fa-brands fa-spotify"></i></a>
-          <a href="https://www.xiaoyuzhoufm.com/podcast/625629c4020537ed9fbedafb"><i class="fa-solid fa-microphone-slash"></i></a>
+        <div class="podcastlinks"> listen more on 
+          <a class="icon" href="https://podcasts.apple.com/us/podcast/%E5%8D%95%E4%BA%BA%E6%88%BFaloneroom/id1630138994?ign-itscg=30200S&ign-itsct=podcast_box"><i class="fa-solid fa-podcast"></i></a>
+          <a class="icon" href="https://open.spotify.com/show/7oYpGRkq3rNp9BvOzYzwn9?si=fe6cff958f4e491d"><i class="fa-brands fa-spotify"></i></a>
+          <a class="icon" href="https://www.xiaoyuzhoufm.com/podcast/625629c4020537ed9fbedafb"><i class="fa-solid fa-microphone-slash"></i></a>
         </div>
       </div>
     </div>
-    
   </div>
-
-  <!-- ----------------------projects------------------ -->
+  </div>
+ 
+ 
+  <!--  --------------------------Projects------------------------- -->
   <div id="projects">
-    <h1>MY PROJECTS 🔨</h1>
-    
-      <div class="project-list">
-        <!-- ----------------projct1----------------- -->
-        <div class="project">
-          <h3>Web Crawler  <a href="#"><i class="fa-brands fa-github"></i></a></h3>
-          <ul>
-            <li>repeatedly extracts URLs and words from web pages and saved desired data into text files</li>
-            <li>Using cosine similarity score calculation between user search query and crawled pages content to determine the content score of each page</li>
-          </ul>
+    <h1 class="subtitle">MY PROJECTS 🔨</h1>
+  
+    <div class="project-list">
+      <!-- Project 1 -->
+      <div class="project">
+        <div class="project-header">
+          <h3>Web Crawler</h3>
+          <a class="icon" href="https://github.com/ariazmzhang/python-based-search-engine"><i class="fa-brands fa-github"></i></a>
         </div>
-        
-        <!-- ----------------projct2----------------- -->
-        <div class="project">
-          <h3>Search Engine   <a href="#"><i class="fa-brands fa-github"></i></a></h3>
-          <ul>
-            <li>Implemented PageRank algorithm (used by Google Search) to rank crawled web pages, enabling users to boost search results by only showing top-quality content</li>
-            <li>Tested on a 1000 interlinked website, automatically generating 1000 directories filled with data </li>
-            <li>Improved efficiency and extensibility in Java by implementing Object-Orientation programming, using interfaces, and constructing different data structures</li>
-            <li>Designed and developed a user-friendly graphical user interface (GUI) using JavaFX</li>
-          </ul>
-        </div>
-        <!-- ----------------projct3----------------- -->
-        <div class="project">
-          <h3>Large Feedback-Collection App   <a href="#"><i class="fa-brands fa-github"></i></a></h3>
-          <ul>
-            <li>Built a full-stack web application for bulk emailing and feedback collection, utilizing technologies such as React, Express, and Node.js</li>
-            <li>Implemented routing on both the frontend with React Router and backend with Express, and enhanced authentication process with Google OAuth</li>
-            <li>Built reusable user input components using Redux Form and enabled payment processing through Stripe</li>
-            <li>Utilized advanced API key handling techniques to separate production and development resources</li>
-          </ul>
-        </div>
-        <!-- ----------------end----------------- -->
+        <ul>
+          <li><span class="emoji">&#x1F6E0;</span>Repeatedly extracts URLs and information from web pages and saves locally</li>
+          <li><span class="emoji">&#x1F6E0;</span>Calculate cosine similarity score calculation between user and pages content to determine page score</li>
+        </ul>
       </div>
-    
+  
+      <!-- Project 2 -->
+      <div class="project">
+        <div class="project-header">
+          <h3>Search Engine</h3>
+          <a class="icon" href="https://github.com/ariazmzhang/java-based-search-engine"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <ul>
+          <li><span class="emoji">&#x1F6E0;</span>PageRank algorithm (used by Google Search) to rank web pages</li>
+          <li><span class="emoji">&#x1F6E0;</span>Object-Orientation and different data structures</li>
+          <li><span class="emoji">&#x1F6E0;</span>User-friendly graphical user interface (GUI)</li>
+        </ul>
+      </div>
+  
+      <!-- Project 3 -->
+      <div class="project">
+        <div class="project-header">
+          <h3>Feedback-Collection Web App</h3>
+          <a class="icon" href="https://github.com/ariazmzhang/feedback-collection"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <ul>
+          <li><span class="emoji">&#x1F6E0;</span>Full-stack web application for bulk emailing and feedback collection</li>
+          <li><span class="emoji">&#x1F6E0;</span>Authentication process with Google OAuth.</li>
+          <li><span class="emoji">&#x1F6E0;</span>Utilized advanced API key handling techniques</li>
+        </ul>
+      </div>
+      <!-- Project 4 -->
+      <div class="project">
+        <div class="project-header">
+          <h3>Keeper Web App</h3>
+          <a class="icon" href="https://github.com/ariazmzhang/feedback-collection"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <ul>
+          <li><span class="emoji">&#x1F6E0;</span>Personal note-taking web application(GoogleKeeper-like) using React</li>
+          <li><span class="emoji">&#x1F6E0;</span>Utilized both class-based and functional React components</li>
+          <li><span class="emoji">&#x1F6E0;</span>enhanced and developed reusable components to increase development productivity</li>
+        </ul>
+      </div>
+  
+    </div>
   </div>
-</body>
+  
 
+    <!-- -----------------------copyright-------------------------- -->
+    <footer>
+      Copyright &copy; 1995-2023 张之梦·AriaZhang
+    </footer>
+</body>
+</html>
 <script src="js/handleTab.js"></script>
 <script src="js/handleSideMenu.js"></script>
 <script src="js/handleGoogleSheet.js"></script>

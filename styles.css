@@ -33,27 +33,19 @@ h1{
   font-weight: 600;
   color: #fff;
 }
+h3{
+  color: #433c91;
+}
 /* -----------header-------------- */
 header{
   display: flex;
   justify-content: left;
   align-items: center;
   margin-top: 25px;
-  /* margin-left: 50px; */
   font-size: 12px;
   color: #fff;
   display: flex;
   justify-content: center;
-}
-#header .logo{
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-  background-size: 50px 50px;
-  background-repeat: no-repeat;
-  filter: grayscale(30%);
-  margin-right: 20px;
 }
 nav a{
   color: #fff; ;
@@ -63,7 +55,6 @@ nav a{
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  
 }
 #sidemenu li {
   display: inline-block;
@@ -98,7 +89,6 @@ nav ul li a:hover::after{
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  
 }
 .contact-all a {
   color: none;
@@ -107,145 +97,136 @@ nav ul li a:hover::after{
   color: #b54769;
 }
 /* -----------podcast-------------- */
-#podcast{
-  margin: 100px 0;
+.podcast {
+  font-family: "Menlo", "Meslo LG", monospace;
+  background-color: #f7b6b6;
+  padding: 20px;
+  border: 1px solid #f7b6b6;
 }
-.podcast-title{
-  color: rgb(127, 170, 255);
-  font-weight: bold;
-}
-.container{
-  margin-top: 100px;
-  padding: 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  max-width: 800px;
-  width: 100%;
-  margin: 0 20px;
-}
-.description{
-  display: flex;
-  align-items: center;
-  margin-right: 0;
+
+.subtitle{
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  color: #de7326;
 }
 .podcastlinks{
-  margin-left: 0;
+  color: rgb(88, 87, 87);
 }
-.podcastlinks li{
-  list-style-type: none;
-  align-items:center;
-  color: #fff;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.podcastlinks li a{
-  color: #fff;
+
+.description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
 }
-.container img{
-  display: inline-block;
-  margin-right: 20px;
+
+.logo {
   width: 100px;
   height: 100px;
-  border-radius: 5px;
-  background-size: 50px 50px;
-}
-
-/* ------------project--------------- */
-#projects{
-  padding: 50px 0;
-  display: inline;
-  margin-left: 0;
-  text-align: center;
-  margin-bottom: 50px;
-}
-h3{
-  margin-top: 30px;
-}
-#project ul li{
-  margin-left: 30px;
-}
-.project-list {
-  display: flex;
-  justify-content: flex-start;
-  display: inline-block;
-  text-align: left;
-  margin-left: 60px;
-}
-.work-list{
-  display: flex;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  grid-gap: 40px;
+  border-radius: 50%;
+  margin-right: 100px;
   margin-top: 50px;
 }
-.work{
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-}
 
-.work img{
-  width: 99%;
-  border-radius: 20px;
-  display: block;
-  transition: transform 0.5s;
-}
-.layer{
-  width: 100%;
-  height: 0%;
-  background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
-  border-radius: 10px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 40px;
-  text-align: center;
+.bio {
   font-size: 14px;
-  transition: height 0.5s;
+  line-height: 1.5;
+  margin-top: 0;
+  color: #433c91;
 }
- .layer h3{
-  font-weight: 500;
-  margin-bottom: 200px;
- }
- .layer a{
-  margin-top: 20px;
-  color: #ff004f;
-  text-decoration: none;
+
+.podcast-title {
+  font-weight: bold;
   font-size: 18px;
-  line-height: 60px;
-  background: #fff;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  text-align: center;
- }
- .work:hover img{
-    transform: scale(1.1);
- }
-
- .work:hover .layer{
-  height: 100%;
- }
- .btn{
   display: block;
-  margin: 50px auto;
-  height: 45px;
-  width: fit-content;
-  border: none;
-  padding: 14px 50px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #fff;
-  transition: background 0.5s
- }
- .btn:hover{
-  background: #ff004f;
- }
+  margin-bottom: 0px;
+  margin-top: 30px;
+  color: #433c91;
+}
 
- 
+.podcast ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.podcast li {
+  margin-bottom: 10px;
+}
+
+.podcast a {
+  color: rgb(88, 87, 87);
+  /* text-decoration: none; */
+}
+
+.podcast a:hover {
+  text-decoration: underline;
+}
+
+.fa-podcast:before {
+  content: "\f6a4";
+}
+
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+
+/* ------------project--------------- */
+#projects {
+  padding: 20px;
+}
+
+.project-list {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project {
+  background-color: #f7b6b6;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emoji {
+  margin-right: 5px;
+}
+.icon {
+  font-size: 1.2rem;
+  color: #333;
+  margin-left: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 15px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+.project ul li{
+  color: rgb(88, 87, 87);
+}
+
 /* -----------about-------------- */
 #about{
   padding: 80px 0;
@@ -388,17 +369,11 @@ footer{
   margin-bottom: 10px;
   font-size: 13px;
   text-align: center;
+  margin-top: 50px;
 }
 
 /* ----------------------css for small screen------------------- */
-nav .fas{
-  display: none;
-}
-
 @media only screen and (max-width: 600px){
-  #header{
-    background-image: url(images/phone-background.png);
-  }
   .header-text {
       margin-top: 100%;
       font-size: 16px;
@@ -411,14 +386,7 @@ nav .fas{
     font-size: 25px;
   }
   nav ul{
-    background: #ff004f;
-    position: fixed;
-    top: 0;
-    right: -200px;
-    width: 200px;
-    height: 100vh;
-    padding-top: 50px;
-    z-index: 2;
+    font-size: 12px;
   }
   nav ul li{
     display: block;
@@ -444,7 +412,7 @@ nav .fas{
 
   }
   .tab-links{
-    font-size: 16px;
+    font-size: 12px;
     margin-right: 20px;
   }
   .contact-left, .contact-right{
@@ -453,10 +421,4 @@ nav .fas{
   .copyright{
     font-size: 14px;
   }
-}
-
-#msg{
-  color: #61b752;
-  margin-top: -40px;
-  display: block;
 }

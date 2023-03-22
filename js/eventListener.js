@@ -10,15 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
      //add listener to close and open tabs
     document.getElementByclass('tab-links').addEventListener('click', opentab)
   
-    //add listener to send message button
-    document.getElementById('send_button').addEventListener('click', sendMessage)
-
-    //add listener to register button
-    document.getElementById('connect_as').addEventListener('click', connectUser)
-
-    //add listener to clear button
-    document.getElementById('clear').addEventListener('click', clearMessage)
-  
     //add keyboard handler for the document as a whole, not separate elements.
     document.addEventListener('keydown', handleKeyDown)
 })
