@@ -61,19 +61,7 @@ nav a{
   list-style-type: none;
   margin: 0 5px;
 }
-nav ul li a::after{
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #ff004f;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  transition: 0.5s;
-}
-nav ul li a:hover::after{
-  width: 100%;
-}
+
 .header-text{
   font-size: 30px;
 }
@@ -263,16 +251,17 @@ h2{
 }
 .tab-titles{
   display: flex;
-  margin: 0px 0 0px;
-  justify-content: space-evenly;
+  margin: 0;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
   margin-top: 30px;
   font-weight: 900;
 }
 .tab-links{
-  margin-right: 100px;
-  color: #fff;
+  /* margin: 0 120px; */
+  color: #de7326;
+  font-weight: bolder;
   font-size: 15px;
   font-weight: 500;
   cursor: pointer;
@@ -282,7 +271,7 @@ h2{
   content: '';
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #b54769;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -293,7 +282,7 @@ h2{
 }
 .tab-contents ul li{
   list-style: none;
-  margin: 14px 0;
+  margin: 15px 0;
 }
 .tab-contents ul li span{
   color: #b54769;
@@ -308,7 +297,18 @@ h2{
   display: block;
 }
 .self-introduce{
-  color: rgb(135, 183, 87);
+  color: #de7326;
+  background: #f7b6b6;
+  width: 700px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  margin-bottom: 80px;
+  font-weight: bold;
 }
 
 
