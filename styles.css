@@ -88,8 +88,14 @@ nav a{
 .podcast {
   font-family: "Menlo", "Meslo LG", monospace;
   background-color: #f7b6b6;
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #f7b6b6;
+  border-radius: 2%;
+  /* width: 700px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .subtitle{
