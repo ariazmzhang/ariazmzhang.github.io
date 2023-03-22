@@ -1,0 +1,4 @@
+remote_theme: [ariazmzhang]/[Minimal]
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
