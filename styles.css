@@ -214,6 +214,9 @@ ul li {
 
 /* -----------about-------------- */
 #about{
+  justify-content: center;
+  align-items: center;
+  display: flex;
   padding: 80px 0;
   color: #ababab;
   margin-bottom: 0px;
@@ -248,7 +251,7 @@ h2{
 .tab-titles{
   display: flex;
   margin: 0;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -276,6 +279,10 @@ h2{
 .tab-links.active-link::after{
   width: 50%;
 }
+.tab-contents{
+  display: none;
+  margin-bottom: 0px;
+}
 .tab-contents ul li{
   list-style: none;
   margin: 15px 0;
@@ -285,12 +292,9 @@ h2{
   font-size: 14px;
   margin: auto;
 }
-.tab-contents{
-  display: none;
-  margin-bottom: 0px;
-}
+
 .tab-contents.active-tab{
-  display: block;
+  display: flex;
 }
 .self-introduce{
   color: #6237A0;
@@ -370,6 +374,9 @@ footer{
 
 /* ----------------------css for small screen------------------- */
 @media only screen and (max-width: 600px){
+  body{
+    width: auto;
+  }
   .header-text {
       margin-top: 100%;
       font-size: 16px;
@@ -416,5 +423,19 @@ footer{
   }
   .copyright{
     font-size: 14px;
+  }
+  .tab-titles{
+    justify-content: space-evenly;
+  }
+  .tab-contents.active-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .self-introduce{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
