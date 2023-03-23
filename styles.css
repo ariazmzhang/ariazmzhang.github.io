@@ -8,7 +8,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #433c91;
+  background: #6237A0;
   color: #fff;
   font-display: swap;
   font-weight: 400;
@@ -23,18 +23,13 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #b54769;
+  color: #DEACF5;
   font-size: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.sub-title{
-  font-size: 20px;
-  font-weight: 600;
-  color: #fff;
-}
 h3{
-  color: #433c91;
+  color: #6237A0;
 }
 /* -----------header-------------- */
 header{
@@ -69,9 +64,7 @@ nav a{
   font-size: 60px;
   margin-top: 20px;
 }
-.header-text h1 span{
-  color: #ff004f;
-}
+
 .contact-all{
   display: flex;
   justify-content: center;
@@ -82,14 +75,13 @@ nav a{
   color: none;
 }
 .icon i {
-  color: #b54769;
+  color: #DEACF5;
 }
 /* -----------podcast-------------- */
 .podcast {
   font-family: "Menlo", "Meslo LG", monospace;
-  background-color: #f7b6b6;
+  background-color: #DEACF5;
   padding: 30px;
-  border: 1px solid #f7b6b6;
   border-radius: 2%;
   /* width: 700px; */
   display: flex;
@@ -102,10 +94,13 @@ nav a{
   font-size: 18px;
   margin-bottom: 20px;
   margin-top: 80px;
-  color: #de7326;
+  color: #DEACF5;
 }
 .podcastlinks{
-  color: rgb(88, 87, 87);
+  color: #6237A0;
+}
+.podcastlinks .icon i{
+  color: #6237A0;
 }
 .container {
   display: flex;
@@ -132,7 +127,7 @@ nav a{
   font-size: 14px;
   line-height: 1.5;
   margin-top: 0;
-  color: #433c91;
+  color: #6237A0;
   margin-left: 30px;
 }
 
@@ -142,7 +137,7 @@ nav a{
   display: block;
   margin-bottom: 0px;
   margin-top: 30px;
-  color: #433c91;
+  color: #6237A0;
 }
 
 .podcast ul {
@@ -189,7 +184,7 @@ nav a{
 }
 
 .project {
-  background-color: #f7b6b6;
+  background-color: #DEACF5;
   border-radius: 5px;
   padding: 20px;
 }
@@ -201,11 +196,6 @@ nav a{
 }
 .emoji {
   margin-right: 5px;
-}
-.icon {
-  font-size: 1.2rem;
-  color: #333;
-  margin-left: 10px;
 }
 
 ul {
@@ -266,7 +256,7 @@ h2{
 }
 .tab-links{
   /* margin: 0 120px; */
-  color: #de7326;
+  color: #DEACF5;
   font-weight: bolder;
   font-size: 15px;
   font-weight: 500;
@@ -277,7 +267,7 @@ h2{
   content: '';
   width: 0;
   height: 3px;
-  background: #b54769;
+  background: #DEACF5;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -291,7 +281,7 @@ h2{
   margin: 15px 0;
 }
 .tab-contents ul li span{
-  color: #b54769;
+  color: #DEACF5;
   font-size: 14px;
   margin: auto;
 }
@@ -303,8 +293,8 @@ h2{
   display: block;
 }
 .self-introduce{
-  color: #de7326;
-  background: #f7b6b6;
+  color: #6237A0;
+  background: #DEACF5;
   width: 700px;
   height: 50px;
   text-align: center;
@@ -312,7 +302,6 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100%; */
   margin-bottom: 80px;
   font-weight: bold;
 }
