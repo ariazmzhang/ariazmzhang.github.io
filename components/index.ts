@@ -1,13 +1,24 @@
 import Hero from './Hero';
-import GoogleMap from './GoogleMap';
 import Header from './Header';
 import MobileMenu from './MobileMenu';
-import Table from './Table';
+import Button from './Button';
+import GradientBackground from './GradientBackground';
+import ProjectCard from './ProjectCard';
+import Podcast from './Podcast';
+import Bookshelf from './Bookshelf';
+import Experience from './Experience';
+import Skills from './Skills';
+
 
 export {
     Hero,
-    GoogleMap,
     Header,
     MobileMenu,
-    Table
+    Button,
+    GradientBackground,
+    ProjectCard,
+    Podcast,
+    Bookshelf,
+    Experience,
+    Skills,
 }

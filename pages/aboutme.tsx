@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import {Header, MobileMenu } from '../components';
+import {Header, MobileMenu, Experience } from '../components';
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState('skills');
   return (
-    <div className="bg-purple-500 w-screen h-screen flex flex-col">
+    <div className="w-screen h-screen flex flex-col z-50">
         
         {/* Header */}
         <header className="z-50">
@@ -13,9 +14,14 @@ export default function App() {
         </header>
     
         {/* Content */}
-        <div className="flex-grow flex flex-col lg:flex-row h-full bg-gray-100 text-black">
-          This to be a notion public page
+        <div className="p-5 mb-6 text-black shadow-lg rounded-md bg-opacity-50 flex z-50">
+      
+
+        {/* Content on the right */}
+        <div className="flex-1 pl-8">
+        <Experience />
         </div>
+    </div>
       </div>
    
   );

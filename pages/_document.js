@@ -1,6 +1,7 @@
 // pages/_document.tsx
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 const apiKey = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
+// import { IconName } from "@heroicons/react/outline";
 
 class MyDocument extends Document {
   render() {

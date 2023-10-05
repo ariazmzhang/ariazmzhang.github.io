@@ -4,9 +4,9 @@ import { XMarkIcon } from '@heroicons/react/24/outline';
 
 // Navigation items for the mobile menu
 const navigation = [
-  { name: "MyFav", href: "/features" },
-  { name: "YumBlog", href: "/blog" },
-  { name: "AboutUs", href: "/pricing" },
+  { name: "Gooey", href: "/features" },
+  { name: "Chewy", href: "/blog" },
+  { name: "Insipid", href: "/pricing" },
 ];
 
 export default function MobileMenu({ mobileMenuOpen, setMobileMenuOpen }) {
