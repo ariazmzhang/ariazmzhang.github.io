@@ -1,6 +1,12 @@
 import React from 'react';
 
-function ProjectCard({ title, techStack, descriptions }) {
+type ProjectCardProps = {
+    title: string;
+    techStack: string;
+    descriptions: string[];
+  };
+  
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, techStack, descriptions }) => {
     return (
         <div className="p-5 mb-6 bg-white text-black shadow-lg rounded-md bg-opacity-50">
             <h2 className="text-xl font-bold mb-2">{title}</h2>

@@ -8,11 +8,14 @@ const navigation = [
     { name: "My Journey", href: "/aboutme" },
   ];
 
+type HeaderProps = {
+	setMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+};
+  
 
-export default function Header({ setMobileMenuOpen }) {
+const Header: React.FC<HeaderProps> = ({ setMobileMenuOpen }) => {
 	const router = useRouter();
-  return (
-    
+  	return (
     <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
       {/* Logo */}
       <div className="flex lg:flex-1">
@@ -59,3 +62,5 @@ export default function Header({ setMobileMenuOpen }) {
     </nav>
   );
 }
+
+export default Header;

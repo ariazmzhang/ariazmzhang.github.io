@@ -8,8 +8,12 @@ const navigation = [
   { name: "Chewy", href: "/blog" },
   { name: "Insipid", href: "/pricing" },
 ];
+type MobileMenuProps = {
+  mobileMenuOpen: boolean;
+  setMobileMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+};
 
-export default function MobileMenu({ mobileMenuOpen, setMobileMenuOpen }) {
+const MobileMenu: React.FC<MobileMenuProps> = ({ mobileMenuOpen, setMobileMenuOpen }) => {
   return (
     // Dialog component from headlessui for creating the mobile menu
     <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)}>
@@ -67,3 +71,5 @@ export default function MobileMenu({ mobileMenuOpen, setMobileMenuOpen }) {
     </Dialog>
   );
 }
+
+export default MobileMenu;
