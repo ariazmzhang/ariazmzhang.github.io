@@ -36,12 +36,13 @@ export default function Hero() {
               B
               </span>ookworm.
             </p>
+            <p className='text-center mx-5 p-10 text-lg text-purple-700 font-bold italic'>'Everything she tackles she conquers.'</p>
 
             {/* -----------Register------------ */}
             <div className="flex items-center justify-center gap-x-6 mt-10">
               <Button data="Github" link="https://github.com/ariazmzhang"/>
               <Button data="LinkedIn" link="https://www.linkedin.com/in/zhimengzhang/"/>
-              <Button data="Email Me" link="mailto:zmzhangg@gmail.com"/>
+              <Button data="Email" link="mailto:zmzhangg@gmail.com"/>
     {/* <a
         href="https://github.com/ariazmzhang"
         className="rounded-md animate-text bg-gradient-to-r from-purple-400 to-blue-500 px-8 py-2.5 text-sm font-semibold text-white shadow-sm hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
