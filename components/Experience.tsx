@@ -48,8 +48,9 @@ export default function Experience() {
             <h5 className="vertical-timeline-element-subtitle">Ottawa, Canada</h5>
             <h4 className="vertical-timeline-element-subtitle">Java | Android Studio | Ubuntu | Python</h4>
             <p>
-            Developed an Android App that fetches tree data from a server via socket connections, presenting details such as
-            location, diameter, and species in a user-friendly manner</p>
+                Developed an Android App that fetches tree data from a server via socket connections, presenting details such as
+                location, diameter, and species in a user-friendly manner
+            </p>
             {/* Add more bullet points as needed */}
         </VerticalTimelineElement>
 
@@ -72,10 +73,12 @@ export default function Experience() {
 
             <p className='text-gray-800 text-xs mx-2'>
                 <ul>
-                    <li>Engaged with various teams from 20+ financial institutions, fostering partnerships to establish and sustain credit lines
-                    between US$15M and US$100M</li>
-                </ul
-            ></p>
+                    <li>
+                        Engaged with various teams from 20+ financial institutions, fostering partnerships to establish and sustain credit lines
+                        between US$15M and US$100M
+                    </li>
+                </ul>
+            </p>
          
             
         </VerticalTimelineElement>

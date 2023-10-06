@@ -29,7 +29,7 @@ export default function Features() {
                     ]}
                 />
                 <ProjectCard 
-                    title="Search Engine 1.0 & 2.0i"
+                    title="Search Engine 1.0 & 2.0"
                     techStack="Python, Java, NumPy, urllib, JavaFX"
                     descriptions={[
                         "Developed Search Engine 1.0 in Python, efficiently crawling over 1,000 interlinked websites",

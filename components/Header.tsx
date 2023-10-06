@@ -21,8 +21,9 @@ const Header: React.FC<HeaderProps> = ({ setMobileMenuOpen }) => {
       <div className="flex lg:flex-1">
         <a href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">My Fav Restaurants</span>
-          <h1 className='text-4xl'>👩🏻‍💻</h1> 
-          {/* <img className="h-12 w-auto" src="/book-stack.png" alt="my logo" /> */}
+          {/* <img src="programmer.png" alt="" className='h-4'/>
+          <h1 className='text-4xl'>👩🏻‍💻</h1>  */}
+          <img className="h-10 w-auto" src="/programmer.png" alt="my logo" />
         </a>
       </div>
 
