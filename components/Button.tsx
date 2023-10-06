@@ -1,6 +1,10 @@
 import React from 'react';
+type ButtonProps = {
+  data: string;  // or whatever type 'data' should be
+  link: string;
+};
 
-const Button = ({ data, link }) => {
+const Button: React.FC<ButtonProps> = ({ data, link }) => {
   return (
     <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
