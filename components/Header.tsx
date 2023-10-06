@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 
 const navigation = [
     { name: "Projects", href: "/projects" },
-    { name: "My Spiritual Corner", href: "/spirit" },
-    { name: "My Journey", href: "/aboutme" },
+    { name: "Spiritual Corner", href: "/spirit" },
+    { name: "Journey", href: "/aboutme" },
   ];
 
 type HeaderProps = {

@@ -13,8 +13,9 @@ const Podcast: React.FC = ({  }) =>  {
               <SpotifyEmbed url="https://open.spotify.com/embed/episode/5JNIrtOqRFK3fsdp4OfHzW?utm_source=generator&theme=0" />
               <SpotifyEmbed url="https://open.spotify.com/embed/episode/4450eWpSPTAetKOtaKCwFq?utm_source=generator&theme=0" />
               <SpotifyEmbed url="https://open.spotify.com/embed/episode/1ZPDHlex34xhrCgTqEMtss?utm_source=generator&theme=0" />
-			</div>
+			      </div>
         </div>  
+        <p className='text-center text-gray-500'>Sorry if you don't speak Chinese :)</p>
     </div>
         
   );
