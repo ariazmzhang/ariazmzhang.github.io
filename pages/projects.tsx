@@ -10,13 +10,13 @@ export default function Features() {
     <div className="w-screen h-screen bg-white flex flex-col">
 
       {/* Header */}
-      <header className="relative inset-x-0 top-0 right-0 z-50">
+      {/* <header className="relative inset-x-0 top-0 right-0 z-50">
         <Header setMobileMenuOpen={setMobileMenuOpen} />
         <MobileMenu mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
-      </header>
+      </header> */}
 
       {/* Main Content */}
-      <div className="flex flex-col lg:flex-row flex-grow bg-gray-100 p-4 justify-center">
+      <div className="flex flex-col lg:flex-row flex-grow bg-gray-100 p-4 justify-center mt-20">
             <div className="max-w-5xl w-full p-5 grid grid-cols-1 md:grid-cols-2 gap-6 z-50">
                 <ProjectCard 
                     title="Behavioral-Interview.ai"
@@ -27,6 +27,7 @@ export default function Features() {
                         "Interview Scenario Simulations: The project offers a range of interview scenario simulations, allowing users to practice their storytelling skills in realistic interview settings. The AI-powered system provides real-time feedback, helping users refine their delivery and adapt their stories to various behavioral questions.",
                         "Integration with Firebase: The Firebase backend provides secure user authentication, data storage, and real-time synchronization of story updates across devices. This ensures a seamless and reliable experience for users, allowing them to access their stories from anywhere."
                     ]}
+                    imgSrc="images/behavioral_ai.png"
                 />
                 <ProjectCard 
                     title="Search Engine 1.0 & 2.0"
@@ -39,6 +40,7 @@ export default function Features() {
                         "Augmented the user experience by crafting an intuitive graphical user interface (GUI) with JavaFX",
                     
                     ]}
+                    imgSrc="images/behavioral_ai.png"
                 />
             
                 <ProjectCard 
@@ -48,6 +50,7 @@ export default function Features() {
                         "Implemented Google OAuth API using Passport.js middleware to ensure secure access to the application",
                         "Utilized MongoDB/Mongoose for storing client information and manage credit cards payments using Stripe API"
                     ]}
+                    imgSrc="images/behavioral_ai.png"
                 />  
         
                 <ProjectCard 
@@ -58,6 +61,7 @@ export default function Features() {
                         "Incorporated semaphores to ensure thread-safety, facilitating smooth concurrent operations without race conditions",
                         "Employed Valgrind for memory management, ensuring efficient resource allocation and preventing potential memory leaks"
                     ]}
+                    imgSrc="images/behavioral_ai.png"
                 />
                 
             </div>

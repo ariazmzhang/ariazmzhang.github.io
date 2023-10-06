@@ -16,7 +16,7 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = ({ setMobileMenuOpen }) => {
 	const router = useRouter();
   	return (
-    <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav className="top-0 w-full flex items-center justify-between p-6 lg:px-8 m-1 fixed z-50 bg-opacity-90" aria-label="Global">
       {/* Logo */}
       <div className="flex lg:flex-1">
         <a href="/" className="-m-1.5 p-1.5">

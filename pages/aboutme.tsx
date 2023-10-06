@@ -4,16 +4,15 @@ import {Header, MobileMenu, Experience } from '../components';
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <div className="w-screen h-screen flex flex-col z-50">
+    <div className="flex flex-col lg:flex-row flex-grow bg-gray-100 p-10 mt-20">
         
         {/* Header */}
-        <header className="z-50">
+        {/* <header className="z-50">
           <Header setMobileMenuOpen={setMobileMenuOpen} />
           <MobileMenu mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
-        </header>
+        </header> */}
     
         {/* Content */}
-        <div className="p-5 mb-6 text-black shadow-lg rounded-md bg-opacity-50 flex z-50">
       
 
         {/* Content on the right */}
@@ -21,7 +20,7 @@ export default function App() {
         <Experience />
         </div>
     </div>
-      </div>
+      
    
   );
 }

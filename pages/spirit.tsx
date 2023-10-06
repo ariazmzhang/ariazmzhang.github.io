@@ -5,7 +5,7 @@ import {Header, MobileMenu, Button,Podcast, Bookshelf } from '../components';
 const PodcastPage: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <div className="w-screen h-screen bg-white flex flex-col">
+    <div className="w-screen h-screen bg-white flex flex-col mt-20">
       {/* Header */}
       <header className="z-50">
         <Header setMobileMenuOpen={setMobileMenuOpen} />
