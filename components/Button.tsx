@@ -1,6 +1,7 @@
 import React from 'react';
+
 type ButtonProps = {
-  data: string;  // or whatever type 'data' should be
+  data: string;
   link: string;
 };
 
