@@ -3,9 +3,9 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import { useRouter } from 'next/router';
 
 const navigation = [
-    { name: "Projects", href: "/projects" },
+    { name: "Technical Hub", href: "/projects" },
     { name: "Spiritual Corner", href: "/spirit" },
-    { name: "Journey", href: "/aboutme" },
+    { name: "Journey", href: "/journey" },
   ];
 
 type HeaderProps = {
@@ -28,11 +28,11 @@ const Header: React.FC<HeaderProps> = ({ setMobileMenuOpen }) => {
       </div>
 
       {/* Mobile Menu Button */}
-      <div className="flex lg:hidden">
+      <div className="flex lg:hidden z-50">
         <button
           type="button"
           className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
-          onClick={() => setMobileMenuOpen(true)}
+          onClick={() => {setMobileMenuOpen(true);console.log("Button clicked!");}}
         >
           <span className="sr-only">Open main menu</span>
           <Bars3Icon className="h-6 w-6" aria-hidden="true" />

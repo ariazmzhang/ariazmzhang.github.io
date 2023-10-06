@@ -16,15 +16,15 @@ export default function Hero() {
         </h1>
   
         <p className="mt-6 text-lg leading-8 text-neutral-50">
-          I'm a 
+          I'm a&nbsp; 
           <span className="animate-text text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
             P
           </span>
-          rogrammer, a 
+          rogrammer, a&nbsp; 
           <span className="animate-text text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
             P
           </span>
-          odcaster, and a 
+          odcaster, and a&nbsp; 
           <span className="animate-text text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
           B 
           </span>

@@ -4,9 +4,9 @@ import { XMarkIcon } from '@heroicons/react/24/outline';
 
 // Navigation items for the mobile menu
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  { name: "Technical Hub", href: "/projects" },
   { name: "Spiritual Corner", href: "/spirit" },
-  { name: "Journey", href: "/aboutme" },
+  { name: "Journey", href: "/journey" },
 ];
 
 type MobileMenuProps = {
@@ -17,7 +17,7 @@ type MobileMenuProps = {
 const MobileMenu: React.FC<MobileMenuProps> = ({ mobileMenuOpen, setMobileMenuOpen }) => {
   return (
     // Dialog component from headlessui for creating the mobile menu
-    <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)}>
+    <Dialog as="div" className="lg:hidden z-50" open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)}>
       {/* This div ensures the menu takes the full vertical space */}
       <div className="fixed inset-0 z-50" />
       
