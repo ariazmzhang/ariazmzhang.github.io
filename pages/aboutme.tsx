@@ -3,7 +3,6 @@ import {Header, MobileMenu, Experience } from '../components';
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState('skills');
   return (
     <div className="w-screen h-screen flex flex-col z-50">
         
