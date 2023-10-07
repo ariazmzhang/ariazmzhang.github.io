@@ -13,11 +13,8 @@ export default function App() {
         </header> */}
     
         {/* Content */}
-      
-
-        {/* Content on the right */}
         <div className="flex-1 pl-8">
-        <Experience />
+        	<Experience />
         </div>
     </div>
       
