@@ -40,13 +40,14 @@ export default function Features() {
                         "Augmented the user experience by crafting an intuitive graphical user interface (GUI) with JavaFX",
                     
                     ]}
-                    imgSrc="images/behavioral_ai.png"
+                    imgSrc="images/java_search_engine.png"
                 />
             
                 <ProjectCard 
                     title="Feedback-Collection"
                     techStack="React, Node.js, Express, MongoDB"
                     descriptions={[
+                        "Created a web application for startup owners to send bulk feedback request emails to customers and obtain tabulated results",
                         "Implemented Google OAuth API using Passport.js middleware to ensure secure access to the application",
                         "Utilized MongoDB/Mongoose for storing client information and manage credit cards payments using Stripe API"
                     ]}
