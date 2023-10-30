@@ -20,6 +20,7 @@ export default function Features() {
             <div className="max-w-5xl w-full p-5 grid grid-cols-1 md:grid-cols-2 gap-6 z-50">
                 <ProjectCard 
                     title="Behavioral-Interview.ai"
+                    link='https://github.com/ariazmzhang/behavioralinterview.ai'
                     techStack="Next.js, Typescript, Tailwindcss, Firebase"
                     descriptions={[
                         "Story Creation and Management: Users can create and manage their personal repository of stories, showcasing their achievements, problem-solving abilities, teamwork skills, and more.",
@@ -31,6 +32,7 @@ export default function Features() {
                 />
                 <ProjectCard 
                     title="Search Engine 1.0 & 2.0"
+                    link='https://github.com/ariazmzhang/java-based-search-engine'
                     techStack="Python, Java, NumPy, urllib, JavaFX"
                     descriptions={[
                         "Developed Search Engine 1.0 in Python, efficiently crawling over 1,000 interlinked websites",
@@ -45,6 +47,7 @@ export default function Features() {
             
                 <ProjectCard 
                     title="Feedback-Collection"
+                    link='https://github.com/ariazmzhang/feedback-collection'
                     techStack="React, Node.js, Express, MongoDB"
                     descriptions={[
                         "Created a web application for startup owners to send bulk feedback request emails to customers and obtain tabulated results",
@@ -56,6 +59,7 @@ export default function Features() {
         
                 <ProjectCard 
                     title="Ghost Hunting Game"
+                    link='https://github.com/ariazmzhang/Ghost-Hunting-Game'
                     techStack="C, Linux, semaphore.h, pthread.h, Valgrind, Makefile"
                     descriptions={[
                         "Developed a multi-threaded ghost hunting simulation in C, offering players a dynamic gameplay experience on Linux platforms",
