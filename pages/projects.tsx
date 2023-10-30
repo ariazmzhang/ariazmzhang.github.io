@@ -51,7 +51,7 @@ export default function Features() {
                         "Implemented Google OAuth API using Passport.js middleware to ensure secure access to the application",
                         "Utilized MongoDB/Mongoose for storing client information and manage credit cards payments using Stripe API"
                     ]}
-                    imgSrc="images/behavioral_ai.png"
+                    imgSrc="images/feedback.png"
                 />  
         
                 <ProjectCard 
@@ -62,7 +62,7 @@ export default function Features() {
                         "Incorporated semaphores to ensure thread-safety, facilitating smooth concurrent operations without race conditions",
                         "Employed Valgrind for memory management, ensuring efficient resource allocation and preventing potential memory leaks"
                     ]}
-                    imgSrc="images/behavioral_ai.png"
+                    imgSrc="images/ghosthunter.png"
                 />
                 
             </div>
