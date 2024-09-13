@@ -3,7 +3,7 @@ import SpotifyEmbed from './SpotifyEmbed';
 
 const Podcast: React.FC = ({  }) =>  {
   return (
-    <div className="bg-gray-100 py-12 bg-opacity-50 h-full flex justify-center flex-col">
+    <div className="bg-gray-100 py-2 bg-opacity-50 h-full flex justify-center flex-col">
         <h1 className="text-2xl text-black font-semibold text-center mb-8 "> 🎧 My Podcast</h1>
         <div>
             <p className='text-start ml-10 mr-10 font-semibold text-gray-400 italic'>Books, Movies, Feminism, and Highs and Lows of Our 20s. 书，电影，女权主义，以及我们20多岁时的高高低低。</p>
@@ -38,7 +38,7 @@ const Podcast: React.FC = ({  }) =>  {
 			      </div>
         </div>  
         
-        <div className='flex flex-col items-start ml-6 my-5'>
+        <div className='flex flex-col items-start ml-6'>
           <p className='ml-3 font-bold text-gray-500'>Available on</p>
           <p className='flex justify-center items-center'>
             <a href="https://podcasts.apple.com/us/podcast/%E5%8D%95%E4%BA%BA%E6%88%BF/id1630064863">

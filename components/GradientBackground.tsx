@@ -1,3 +1,5 @@
+"use client"; 
+
 import { Gradient } from './gradient';
 import React from 'react';
 import { twMerge } from 'tailwind-merge';
