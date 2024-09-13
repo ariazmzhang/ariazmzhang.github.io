@@ -8,7 +8,7 @@ import Podcast from './Podcast';
 import Bookshelf from './Bookshelf';
 import Experience from './Experience';
 import Skills from './Skills';
-
+import Footer from './Footer';
 
 export {
     Hero,
@@ -21,4 +21,5 @@ export {
     Bookshelf,
     Experience,
     Skills,
+    Footer
 }

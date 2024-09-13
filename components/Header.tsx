@@ -3,9 +3,9 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import { useRouter } from 'next/router';
 
 const navigation = [
-    { name: "Projects", href: "/projects" },
+    { name: "Technical Hub", href: "/projects" },
     { name: "Spiritual Corner", href: "/spirit" },
-    { name: "Journey", href: "/aboutme" },
+    { name: "Journey", href: "/journey" },
   ];
 
 type HeaderProps = {
@@ -16,22 +16,23 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = ({ setMobileMenuOpen }) => {
 	const router = useRouter();
   	return (
-    <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav className="top-0 w-full flex items-center justify-between p-6 lg:px-8 m-1 fixed z-50 bg-opacity-90" aria-label="Global">
       {/* Logo */}
       <div className="flex lg:flex-1">
         <a href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">My Fav Restaurants</span>
-          <h1 className='text-4xl'>👩🏻‍💻</h1> 
-          {/* <img className="h-12 w-auto" src="/book-stack.png" alt="my logo" /> */}
+          {/* <img src="programmer.png" alt="" className='h-4'/>
+          <h1 className='text-4xl'>👩🏻‍💻</h1>  */}
+          <img className="h-10 w-auto" src="/programmer.png" alt="my logo" />
         </a>
       </div>
 
       {/* Mobile Menu Button */}
-      <div className="flex lg:hidden">
+      <div className="flex lg:hidden z-50">
         <button
           type="button"
           className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
-          onClick={() => setMobileMenuOpen(true)}
+          onClick={() => {setMobileMenuOpen(true);console.log("Button clicked!");}}
         >
           <span className="sr-only">Open main menu</span>
           <Bars3Icon className="h-6 w-6" aria-hidden="true" />

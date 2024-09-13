@@ -4,9 +4,9 @@ import { XMarkIcon } from '@heroicons/react/24/outline';
 
 // Navigation items for the mobile menu
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  { name: "Technical Hub", href: "/projects" },
   { name: "Spiritual Corner", href: "/spirit" },
-  { name: "Journey", href: "/aboutme" },
+  { name: "Journey", href: "/journey" },
 ];
 
 type MobileMenuProps = {
@@ -17,7 +17,7 @@ type MobileMenuProps = {
 const MobileMenu: React.FC<MobileMenuProps> = ({ mobileMenuOpen, setMobileMenuOpen }) => {
   return (
     // Dialog component from headlessui for creating the mobile menu
-    <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)}>
+    <Dialog as="div" className="lg:hidden z-50" open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)}>
       {/* This div ensures the menu takes the full vertical space */}
       <div className="fixed inset-0 z-50" />
       
@@ -27,9 +27,9 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ mobileMenuOpen, setMobileMenuOp
         {/* Header section of the mobile menu */}
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">My Fav Restaurants</span>
-            <img className="h-8 w-auto" src="/logo.png" alt="" />
+          <a href="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">Aria's Space</span>
+            <img className="h-8 w-auto" src="/programmer.png" alt="" />
           </a>
           {/* Close button */}
           <button
@@ -51,7 +51,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ mobileMenuOpen, setMobileMenuOp
                 <a
                   key={item.name}
                   href={item.href}
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-purple-600 hover:bg-purple-300"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-purple-300"
                 >
                   {item.name}
                 </a>
@@ -60,10 +60,10 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ mobileMenuOpen, setMobileMenuOp
             {/* Login link */}
             <div className="py-6">
               <a
-                href="/"
-                className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-purple-600 hover:bg-purple-300"
+                href="mailto:zmzhangg@gmail.com"
+                className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-purple-400 hover:bg-purple-300"
               >
-                Back to home
+                💭 Fancy a chat?
               </a>
             </div>
           </div>
