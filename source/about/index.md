@@ -5,8 +5,9 @@ date: 2024-09-13 22:20:56
 
 Hi :)
 
-Hello and welcome to my corner of the internet! I'm currently in my fourth year studying Computer Science at Carleton University, and right now, I'm interning as a Software Engineer at Hitachi Rail. Previously, I interned at Trend Micro and Lim Geometics as a Software Engineer. Check out some of my projects on GitHub, connect with me on LinkedIn, or read more about me below!
+Welcome to my corner of the internet! I'm currently in my fourth year studying Computer Science at Carleton University, and right now I'm interning as a Software Engineer at Hitachi Rail. Previously, I interned at Trend Micro and Lim Geometics as a Software Engineer. Check out some of my projects on GitHub, connect with me on [LinkedIn](https://www.linkedin.com/in/zhimengzhang/), or read more about me below!
 
+At the age of 27, I transitioned from Finance to Computer Science, proving that it's never too late to follow your true passion.
 
 ## Favorite Logos 🛠
 
@@ -27,20 +28,22 @@ Hello and welcome to my corner of the internet! I'm currently in my fourth year 
 </p>
 
 ## Work Experience 💼
+- **(May 2024 - now) Software Engineer Intern**, [Hitachi Rail](https://www.hitachirail.com/), Toronto, Canada
+  - Keywords: train signalling automation
 
-- **(2022 - now) Senior Software Engineer**, [DoorDash](https://doordash.com/), Sunnyvale, USA
-  - Keywords: consumer product
+- **(Jan 2024 - Apr 2024) Software Engineer Intern**, [Trend Micro](https://www.trendmicro.com/en_us/business.html), Ottawa, Canada
+  - Keywords: cloud service
 
-- **(2021 - 2022) Senior Software Engineer**, [TikTok](https://tiktok.com/), Mountain View, USA
-  - Keywords: ads monetization
+- **(Jun 2023 - Aug 2023) Software Engineer Intern**, [Lim Geomatics](https://www.limgeomatics.com/), Ottawa, Canada
+  - Keywords: AI
 
-- **(2018 - 2021) Software Engineer**, [Utility Warehouse](https://goo.gl/maps/auFh5RRuLRm), London, UK
-  - Keywords: react, react-native, TypeScript, JavaScript
+- **(2019 - 2021) Project Finance Analyst**, [Jinko](https://www.jinkopower.com/en), Shanghai, China
+  - Keywords: financial analyze
 
 ## Education 🎓
 
-- **(2016 - 2017) MSc Web Technology**, [University of Southampton](https://goo.gl/maps/tuCMArERFPB2), Southampton, UK
-- **(2012 - 2016) BSc Computer Science**, [University of Science & Technology Beijing (USTB)](https://goo.gl/maps/zQTSjzBK5zv), Beijing, China
+- **(2022 - 2025) BSc Computer Science**, [Carleton University](https://carleton.ca/), Ottawa, Canada
+- **(2013 - 2017) BEcon Public Finance**, [Renmin University of China](https://en.ruc.edu.cn/), Beijing, China
 
 ## Fancy a chat? 💬
 
