@@ -1,0 +1,22 @@
+[
+   {
+       "name": "Behavioral-Interview.ai",
+       "url": "https://github.com/ariazmzhang/behavioralinterview.ai",
+       "desc": "Story Creation and Management, AI-Driven Story Analysis, Interview Scenario Simulations, Integration with Firebase."
+   },
+   {
+       "name": "Search Engine 1.0 & 2.0",
+       "url": "https://github.com/ariazmzhang/java-based-search-engine",
+       "desc": "Search Engine 1.0 in Python, Search Engine 2.0 in Java with improved architecture and GUI."
+   },
+   {
+       "name": "Feedback-Collection",
+       "url": "https://github.com/ariazmzhang/feedback-collection",
+       "desc": "Web application for bulk feedback requests, secure access with Google OAuth, client information storage and payment management with MongoDB and Stripe."
+   },
+   {
+       "name": "Ghost Hunting Game",
+       "url": "https://github.com/ariazmzhang/Ghost-Hunting-Game",
+       "desc": "Multi-threaded ghost hunting simulation in C with thread-safety and memory management on Linux platforms."
+   }
+]
