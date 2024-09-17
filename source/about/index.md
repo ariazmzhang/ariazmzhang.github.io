@@ -5,9 +5,13 @@ date: 2024-09-13 22:20:56
 
 Hi :)
 
-Welcome to my corner of the internet! I'm currently in my fourth year studying Computer Science at Carleton University, and right now I'm interning as a Software Engineer at Hitachi Rail. Previously, I interned at Trend Micro and Lim Geometics as a Software Engineer. Check out some of my projects on GitHub, connect with me on [LinkedIn](https://www.linkedin.com/in/zhimengzhang/), or read more about me below!
+Welcome to my corner of the internet! 
 
 At the age of 27, I transitioned from Finance to Computer Science, proving that it's never too late to follow your true passion.
+
+Check out some of my projects on [GitHub](https://github.com/ariazmzhang), connect with me on [LinkedIn](https://www.linkedin.com/in/zhimengzhang/), or read more about me below!
+
+
 
 ## Favorite Logos 🛠
 
