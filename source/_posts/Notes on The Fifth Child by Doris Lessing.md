@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 读多丽丝莱辛《第五个孩子》
+title: Notes on The Fifth Child by Doris Lessing
 date: 2024-10-05 13:53:24
 tags:
 ---
