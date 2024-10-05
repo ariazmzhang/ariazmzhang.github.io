@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on *The Fifth Child* by Doris Lessing
+title: Notes on The Fifth Child by Doris Lessing
 date: 2024-10-05 13:53:24
 tags:
 ---

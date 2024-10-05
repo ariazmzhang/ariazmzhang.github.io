@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on *A Woman's Story* by Annie Ernaux
+title: Notes on A Woman's Story by Annie Ernaux
 date: 2024-10-05 15:46:18
 tags:
 ---
