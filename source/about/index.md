@@ -5,13 +5,17 @@ date: 2024-09-13 22:20:56
 
 Hi :)
 
-Welcome to my corner of the internet! 
+Welcome to my corner of the internet!
 
-At the age of 27, I transitioned from Finance to Computer Science, proving that it's never too late to follow your true passion.
+I live in two worlds.
+
+One is a realm of logic and precision, where 0s and 1s converge to solve problems and shape the future. It’s a place where algorithms speak their own language and the smallest symbol can transform chaos into clarity. This world demands focus, sharpens my thinking, and challenges me to create something meaningful—something lasting—with just a keyboard and a spark of imagination. Here, hidden patterns hold solutions, and every problem is a puzzle waiting to be solved.
+
+The other world is fluid, filled with stories, and the quiet yet powerful act of reflection. It’s a world where I’ve roamed the streets of Naples with Elena and Lila, traced the memories of Annie Ernaux, and stood in awe of Doris Lessing’s fearless truths. It’s a space where I write, think, and question everything, guided by the belief that “ the army is the body : I am the brain. Thinking is my fighting.”
+
+At first glance, these two worlds might seem separate. But to me, they are deeply connected. In one, I uncover solutions; in the other, I search for meaning. Together, they shape how I see the world and how I navigate it, reminding me that creativity and curiosity are the threads that bind them—and me—together.
 
 Check out some of my projects on [GitHub](https://github.com/ariazmzhang), connect with me on [LinkedIn](https://www.linkedin.com/in/zhimengzhang/), or read more about me below!
-
-
 
 ## Favorite Logos 🛠
 
